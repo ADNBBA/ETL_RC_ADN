@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="AZURE_TABLES_BBA"
+  DTS:DTSID="{9224F3E0-206A-4D62-9718-DC31B7E183C6}"
+  DTS:CreationName="OLEDB">
+  <DTS:PropertyExpression
+    DTS:Name="ServerName">@[$Project::BBA_AZURE]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:Retain="True"
+      DTS:ConnectionString="Data Source=;User ID=useradnbba;Initial Catalog=RC_ADN;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAERaYBjWSj0KVi2DlmdoNsgAAAAACAAAAAAAQZgAAAAEAACAAAACnk6zfKDA1McNJag8mZGKOEPPCb+p0bih3As4dNVkwWAAAAAAOgAAAAAIAACAAAABdfALGyP5ST6kfu7U1z2ClFT4CFuKF5nmtb829S26NAYAAAACQbdl/89BbyIzjT1HFS5Epr8YNBWhS+mXpSwlvokQ8FhTURkWjlchrLBLIOxcDPEULtoHf92VrsQFKrwQlwcSCEbtggRAnHT8AHee0QFbuFYiTsKWRqng+2i9rrASCog+NVOCqSENQ2YNfHSrNuSClpfQf3S6zogw8L0gzcKzBE0AAAADafd9gEbbGFfzQ1Mmkdap/Rc7ivygdKPovpIS6QkZuhuRCfKVbd5bUxZkLH2039HOUL3WIGX4uGvfgITlFf5x0</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
